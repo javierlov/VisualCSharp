@@ -1,0 +1,20 @@
+<xsd:schema id="DataSet1" targetNamespace="http://www.tempuri.org/DataSet1.xsd" xmlns="http://www.tempuri.org/DataSet1.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xsd:element name="DataSet1" msdata:IsDataSet="true">
+    <xsd:complexType>
+      <xsd:choice maxOccurs="unbounded">
+        <xsd:element name="Products">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="ProductID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xsd:int" />
+              <xsd:element name="ProductName" type="xsd:string" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:choice>
+    </xsd:complexType>
+    <xsd:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xsd:selector xpath=".//Products" />
+      <xsd:field xpath="ProductID" />
+    </xsd:unique>
+  </xsd:element>
+</xsd:schema>

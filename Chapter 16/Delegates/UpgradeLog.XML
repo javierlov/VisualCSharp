@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Delegates">
+</Property><Property Name="Solution File" Value="D:\MisArchivos\VisualCSharp\Chapter 16\Delegates\Delegates.sln">
+</Property><Property Name="Date" Value="miércoles, 09 de octubre de 2013">
+</Property><Property Name="Time" Value="13:29">
+</Property></Properties><Event ErrorLevel="0" Project="Delegates" Source="Delegates.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Delegates" Source="Delegates.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Delegates.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Delegates.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Delegates" Source="Delegates.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveDataTypes", "PrimitiveDataTypes.csproj", "{85F05B43-FE8C-4E5B-A07F-93A18D792E9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{85F05B43-FE8C-4E5B-A07F-93A18D792E9F}.Debug.ActiveCfg = Debug|.NET
+		{85F05B43-FE8C-4E5B-A07F-93A18D792E9F}.Debug.Build.0 = Debug|.NET
+		{85F05B43-FE8C-4E5B-A07F-93A18D792E9F}.Release.ActiveCfg = Release|.NET
+		{85F05B43-FE8C-4E5B-A07F-93A18D792E9F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

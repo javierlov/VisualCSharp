@@ -1,0 +1,7 @@
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginControl Complete\bin\Debug\LoginControl.dll
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginControl Complete\bin\Debug\LoginControl.pdb
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginControl Complete\obj\Debug\ResolveAssemblyReference.cache
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginControl Complete\obj\Debug\LoginControl.Login.resources
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginControl Complete\obj\Debug\LoginControl.csproj.GenerateResource.Cache
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginControl Complete\obj\Debug\LoginControl.dll
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginControl Complete\obj\Debug\LoginControl.pdb

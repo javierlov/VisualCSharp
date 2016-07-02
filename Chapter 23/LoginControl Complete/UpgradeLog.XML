@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LoginControl">
+</Property><Property Name="Solution File" Value="D:\MisArchivos\VisualCSharp\Chapter 23\LoginControl Complete\LoginControl.sln">
+</Property><Property Name="Date" Value="miércoles, 09 de octubre de 2013">
+</Property><Property Name="Time" Value="21:47">
+</Property></Properties><Event ErrorLevel="0" Project="LoginControl" Source="LoginControl.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LoginControl" Source="LoginControl.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LoginTest" Source="..\LoginTest Complete\LoginTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LoginTest" Source="..\LoginTest Complete\LoginTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LoginControl.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LoginControl.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LoginControl" Source="LoginControl.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="LoginTest" Source="..\LoginTest Complete\LoginTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

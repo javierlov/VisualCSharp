@@ -1,0 +1,17 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "ListProducts"
+   MSDTVersion = "70"
+   DefDBRef = "MOCKTURTLE\NetSDK.Northwind.dbo"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "MOCKTURTLE\NetSDK.Northwind.dbo"
+         ConnectStr = "Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Northwind;Data Source=MOCKTURTLE\NetSDK;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=MOCKTURTLE;Use Encryption for Data=False;Tag with column collation when possible=False"
+         Colorizer = 5
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

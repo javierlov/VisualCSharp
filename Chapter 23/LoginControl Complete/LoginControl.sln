@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginControl", "LoginControl.csproj", "{F77E113F-42D7-40C0-8B26-E6105DC16489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginTest", "..\LoginTest Complete\LoginTest.csproj", "{90350E4D-8395-4E57-B6F4-59AA475A92C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F77E113F-42D7-40C0-8B26-E6105DC16489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77E113F-42D7-40C0-8B26-E6105DC16489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77E113F-42D7-40C0-8B26-E6105DC16489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77E113F-42D7-40C0-8B26-E6105DC16489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90350E4D-8395-4E57-B6F4-59AA475A92C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90350E4D-8395-4E57-B6F4-59AA475A92C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90350E4D-8395-4E57-B6F4-59AA475A92C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90350E4D-8395-4E57-B6F4-59AA475A92C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://contentmaster.com/NorthwindServices" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://contentmaster.com/NorthwindServices" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://contentmaster.com/NorthwindServices">
+      <s:element name="HowMuchWillItCost">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="howMany" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HowMuchWillItCostResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="HowMuchWillItCostResult" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProductInfoResult" type="s0:Product" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Product">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ProductID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SupplierID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CategoryID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuantityPerUnit" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UnitPrice" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="UnitsInStock" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="UnitsOnOrder" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReorderLevel" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="Discontinued" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="decimal" type="s:decimal" />
+      <s:element name="Product" nillable="true" type="s0:Product" />
+    </s:schema>
+  </types>
+  <message name="HowMuchWillItCostSoapIn">
+    <part name="parameters" element="s0:HowMuchWillItCost" />
+  </message>
+  <message name="HowMuchWillItCostSoapOut">
+    <part name="parameters" element="s0:HowMuchWillItCostResponse" />
+  </message>
+  <message name="GetProductInfoSoapIn">
+    <part name="parameters" element="s0:GetProductInfo" />
+  </message>
+  <message name="GetProductInfoSoapOut">
+    <part name="parameters" element="s0:GetProductInfoResponse" />
+  </message>
+  <message name="HowMuchWillItCostHttpGetIn">
+    <part name="productName" type="s:string" />
+    <part name="howMany" type="s:string" />
+  </message>
+  <message name="HowMuchWillItCostHttpGetOut">
+    <part name="Body" element="s0:decimal" />
+  </message>
+  <message name="GetProductInfoHttpGetIn">
+    <part name="productName" type="s:string" />
+  </message>
+  <message name="GetProductInfoHttpGetOut">
+    <part name="Body" element="s0:Product" />
+  </message>
+  <message name="HowMuchWillItCostHttpPostIn">
+    <part name="productName" type="s:string" />
+    <part name="howMany" type="s:string" />
+  </message>
+  <message name="HowMuchWillItCostHttpPostOut">
+    <part name="Body" element="s0:decimal" />
+  </message>
+  <message name="GetProductInfoHttpPostIn">
+    <part name="productName" type="s:string" />
+  </message>
+  <message name="GetProductInfoHttpPostOut">
+    <part name="Body" element="s0:Product" />
+  </message>
+  <portType name="ProductServiceSoap">
+    <operation name="HowMuchWillItCost">
+      <input message="s0:HowMuchWillItCostSoapIn" />
+      <output message="s0:HowMuchWillItCostSoapOut" />
+    </operation>
+    <operation name="GetProductInfo">
+      <input message="s0:GetProductInfoSoapIn" />
+      <output message="s0:GetProductInfoSoapOut" />
+    </operation>
+  </portType>
+  <portType name="ProductServiceHttpGet">
+    <operation name="HowMuchWillItCost">
+      <input message="s0:HowMuchWillItCostHttpGetIn" />
+      <output message="s0:HowMuchWillItCostHttpGetOut" />
+    </operation>
+    <operation name="GetProductInfo">
+      <input message="s0:GetProductInfoHttpGetIn" />
+      <output message="s0:GetProductInfoHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="ProductServiceHttpPost">
+    <operation name="HowMuchWillItCost">
+      <input message="s0:HowMuchWillItCostHttpPostIn" />
+      <output message="s0:HowMuchWillItCostHttpPostOut" />
+    </operation>
+    <operation name="GetProductInfo">
+      <input message="s0:GetProductInfoHttpPostIn" />
+      <output message="s0:GetProductInfoHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="ProductServiceSoap" type="s0:ProductServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="HowMuchWillItCost">
+      <soap:operation soapAction="http://contentmaster.com/NorthwindServices/HowMuchWillItCost" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetProductInfo">
+      <soap:operation soapAction="http://contentmaster.com/NorthwindServices/GetProductInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="ProductServiceHttpGet" type="s0:ProductServiceHttpGet">
+    <http:binding verb="GET" />
+    <operation name="HowMuchWillItCost">
+      <http:operation location="/HowMuchWillItCost" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetProductInfo">
+      <http:operation location="/GetProductInfo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="ProductServiceHttpPost" type="s0:ProductServiceHttpPost">
+    <http:binding verb="POST" />
+    <operation name="HowMuchWillItCost">
+      <http:operation location="/HowMuchWillItCost" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetProductInfo">
+      <http:operation location="/GetProductInfo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ProductService">
+    <port name="ProductServiceSoap" binding="s0:ProductServiceSoap">
+      <soap:address location="http://localhost/NorthwindServices/ProductService.asmx" />
+    </port>
+    <port name="ProductServiceHttpGet" binding="s0:ProductServiceHttpGet">
+      <http:address location="http://localhost/NorthwindServices/ProductService.asmx" />
+    </port>
+    <port name="ProductServiceHttpPost" binding="s0:ProductServiceHttpPost">
+      <http:address location="http://localhost/NorthwindServices/ProductService.asmx" />
+    </port>
+  </service>
+</definitions>

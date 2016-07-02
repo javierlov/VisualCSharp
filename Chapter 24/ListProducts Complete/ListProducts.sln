@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "ListProducts", "ListProducts.dbp", "{A7E6F3AB-E4A0-40D2-9247-338BE9CE6538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayProducts", "..\DisplayProducts\DisplayProducts.csproj", "{73D46128-B3B1-4337-8B67-1166A6EE3ACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{73D46128-B3B1-4337-8B67-1166A6EE3ACA}.Debug.ActiveCfg = Debug|.NET
+		{73D46128-B3B1-4337-8B67-1166A6EE3ACA}.Debug.Build.0 = Debug|.NET
+		{73D46128-B3B1-4337-8B67-1166A6EE3ACA}.Release.ActiveCfg = Release|.NET
+		{73D46128-B3B1-4337-8B67-1166A6EE3ACA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

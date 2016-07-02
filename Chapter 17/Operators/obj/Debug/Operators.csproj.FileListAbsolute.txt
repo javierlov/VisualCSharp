@@ -1,0 +1,7 @@
+D:\MisArchivos\VisualCSharp\Chapter 17\Operators\obj\Debug\Operators.exe
+D:\MisArchivos\VisualCSharp\Chapter 17\Operators\obj\Debug\Operators.pdb
+D:\MisArchivos\VisualCSharp\Chapter 17\Operators\obj\Debug\ResolveAssemblyReference.cache
+D:\MisArchivos\VisualCSharp\Chapter 17\Operators\obj\Debug\Operators.Form1.resources
+D:\MisArchivos\VisualCSharp\Chapter 17\Operators\obj\Debug\Operators.csproj.GenerateResource.Cache
+D:\MisArchivos\VisualCSharp\Chapter 17\Operators\bin\Debug\Operators.exe
+D:\MisArchivos\VisualCSharp\Chapter 17\Operators\bin\Debug\Operators.pdb

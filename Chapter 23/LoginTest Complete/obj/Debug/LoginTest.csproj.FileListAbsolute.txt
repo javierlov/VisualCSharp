@@ -1,0 +1,9 @@
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginTest Complete\obj\Debug\LoginTest.exe
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginTest Complete\obj\Debug\LoginTest.pdb
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginTest Complete\bin\Debug\LoginTest.exe
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginTest Complete\bin\Debug\LoginTest.pdb
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginTest Complete\bin\Debug\LoginControl.dll
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginTest Complete\bin\Debug\LoginControl.pdb
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginTest Complete\obj\Debug\ResolveAssemblyReference.cache
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginTest Complete\obj\Debug\LoginTest.Form1.resources
+D:\MisArchivos\VisualCSharp\Chapter 23\LoginTest Complete\obj\Debug\LoginTest.csproj.GenerateResource.Cache

@@ -1,0 +1,7 @@
+D:\MisArchivos\VisualCSharp\Chapter 16\Delegates\bin\Debug\Delegates.exe
+D:\MisArchivos\VisualCSharp\Chapter 16\Delegates\bin\Debug\Delegates.pdb
+D:\MisArchivos\VisualCSharp\Chapter 16\Delegates\obj\Debug\ResolveAssemblyReference.cache
+D:\MisArchivos\VisualCSharp\Chapter 16\Delegates\obj\Debug\Delegates.Form1.resources
+D:\MisArchivos\VisualCSharp\Chapter 16\Delegates\obj\Debug\Delegates.csproj.GenerateResource.Cache
+D:\MisArchivos\VisualCSharp\Chapter 16\Delegates\obj\Debug\Delegates.exe
+D:\MisArchivos\VisualCSharp\Chapter 16\Delegates\obj\Debug\Delegates.pdb
